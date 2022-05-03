@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    flex-direction: column;
+    height: 100%;
+}
+.main-content{
+    padding-top: 153px;
+    padding-left: 154px ;
+    padding-right: 125px;
+}
+
+.side-content{
+    position: absolute;
+    width: 700px;
+    height: 10000px;
+    right: 0;
+    top: 0px;
+    background: linear-gradient(180deg, #6D5DA8 0%, #43479E 100%);
+}
+
+/* HERO */
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero__img{
+    width: 400px;
+    height: auto;
+}
+.hero__img img{
+    width: 100%;
+    height: auto;
+}
+
+.hero__name{
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: #666666;
+margin-bottom: 15px;
+}
+
+.hero__name-higlight{
+    font-weight: 900;
+    color:#42489E;
+}
+
+.hero__jod-title{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.hero__contacts-list,
+.hero__link{
+    list-style: none;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #666666;
+    text-decoration: none;
+}
+
+.hero__contact-items{
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.hero__contact-items::before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero__contact-items:nth-child(1)::before{
+    background-image: url(./img/Phone.png);
+    width: 20px;
+    height: 20px;
+    left: 2px;
+}
+
+.hero__contact-items:nth-child(2)::before{
+    background-image: url(./img/Mail.png);
+    width: 23px;
+    height: 20px;
+    left: 1px;
+}
+
+.hero__contact-items:nth-child(3)::before{
+    background-image: url(./img/Cal.png);
+    width: 25px;
+    height: 20px;
+    left: 5px;
+}
+
+.hero__contact-items:nth-child(4)::before{
+    background-image: url(./img/Map.png);
+    width: 25px;
+    height: 20px;
+    left: 5px;
+}
+
+/* Minecraft */
+.games{
+    position: absolute;
+    left: 154px;
+    width: 850px;
+    height: 500px;
+    color:#42489E
+}
+
+.mcraft{
+    position: absolute;
+    top: 650px;
+    left: 154px;
+    width: 850px;
+    height: 500px;
+}
+
+.mecraft{
+    list-style: none;
+}
+
+.mcraft__main{
+    margin-bottom: 10px;
+    font-weight: 900
+}
+
+.mcraft__sec{
+    margin-bottom: 20px;
+    color: #9B9B9B;
+}
+
+.mcraft__text{
+    color: #666666;
+}
+
+.game{
+    position: absolute;
+    height: 50px;
+    left: 95px;
+    top: 546px;
+}
+
+.ano{
+    list-style: none;
+}
+
+.anno{
+    position: absolute;
+    top: 830px;
+    left: 154px;
+    width: 850px;
+    height: 500px;
+}
+
+.anno__main{
+    margin-bottom: 10px;
+    font-weight: 900
+}
+
+.anno__sec{
+    margin-bottom: 20px;
+    color: #9B9B9B;
+}
+
+.anno__text{
+    color: #666666;
+}
+/* Battlefield */
+
+.dot1{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    top: 645px;
+}
+
+.dot2{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    top: 825px;
+}
+
+.bt{
+    position: absolute;
+    top: 361px;
+    left: 100px;
+    width: 850px;
+    height: 500px;
+    list-style: none;
+}
+
+.bat__main{
+    margin-bottom: 10px;
+    font-weight: 900
+}
+
+.bat__sec{
+    margin-bottom: 20px;
+    color: #9B9B9B;
+}
+
+.bat__text{
+    color: #666666;
+}
+
+.bat{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    top: 645px;
+}
+
+.dot3{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    top: 1000px;
+}
