@@ -27,26 +27,12 @@ h6{
     padding: 0;
 }
 
+/* MainMan */
 .content{
     flex-direction: column;
     height: 100%;
+    padding: 100px;
 }
-.main-content{
-    padding-top: 153px;
-    padding-left: 154px ;
-    padding-right: 125px;
-}
-
-.side-content{
-    position: absolute;
-    width: 700px;
-    height: 10000px;
-    right: 0;
-    top: 0px;
-    background: linear-gradient(180deg, #6D5DA8 0%, #43479E 100%);
-}
-
-/* HERO */
 
 .hero{
     display: flex;
@@ -138,123 +124,349 @@ margin-bottom: 15px;
     height: 20px;
     left: 5px;
 }
+/* MainMan */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Game Ex */
+.mainh{
+    position: relative;
+    color:#42489E;
+    padding-top:50px ;
+}
+
+.mainh::before{
+    content:'';
+    background-image:url(./img/Market.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -60px;
+    top: 42px;
+    background-size: contain;
+}
+/* Game Ex */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Minecraft */
-.games{
+.minecraft{
     position: absolute;
-    left: 154px;
-    width: 850px;
-    height: 500px;
-    color:#42489E
+    margin-top: 40px;
 }
 
-.mcraft{
-    position: absolute;
-    top: 650px;
-    left: 154px;
-    width: 850px;
-    height: 500px;
-}
-
-.mecraft{
+.craft{
     list-style: none;
 }
 
-.mcraft__main{
+.mainhi{
     margin-bottom: 10px;
     font-weight: 900
 }
 
-.mcraft__sec{
-    margin-bottom: 20px;
+.place{
+    margin-bottom: 15px;
     color: #9B9B9B;
 }
 
-.mcraft__text{
+.sidetexthi{
     color: #666666;
+    width: 50%;
 }
 
-.game{
+.mainhi::before{
+    content:'';
+    background-color: #ccc;
+    display: block;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    height: 50px;
-    left: 95px;
-    top: 546px;
+    left: -60px;
+    background-size: contain;
+}
+
+.mainhi::after{
+    content:'';
+    background-color: purple;
+    display: block;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -53px;
+    top: 7px ;
+    background-size: contain;
+}
+/* Minecraft */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Anno */
+.anno{
+    position: absolute;
+    margin-top: 200px;
 }
 
 .ano{
     list-style: none;
 }
 
-.anno{
-    position: absolute;
-    top: 830px;
-    left: 154px;
-    width: 850px;
-    height: 500px;
-}
-
-.anno__main{
+.mainhisec{
     margin-bottom: 10px;
     font-weight: 900
 }
 
-.anno__sec{
-    margin-bottom: 20px;
-    color: #9B9B9B;
+.mainhisec::before{
+    content:'';
+    background-color: #ccc;
+    display: block;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -60px;
+    background-size: contain;
 }
 
-.anno__text{
-    color: #666666;
+.mainhisec::after{
+    content:'';
+    background-color: purple;
+    display: block;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -53px;
+    top: 7px ;
+    background-size: contain;
 }
+/* Anno */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Battlefield */
-
-.dot1{
+.battlefield{
     position: absolute;
-    height: 30px;
-    left: 50px;
-    top: 645px;
+    margin-top: 350px;
 }
 
-.dot2{
-    position: absolute;
-    height: 30px;
-    left: 50px;
-    top: 825px;
-}
-
-.bt{
-    position: absolute;
-    top: 361px;
-    left: 100px;
-    width: 850px;
-    height: 500px;
+.battle{
     list-style: none;
 }
 
-.bat__main{
+.mainhithir{
     margin-bottom: 10px;
     font-weight: 900
 }
 
-.bat__sec{
+.mainhithir::before{
+    content:'';
+    background-color: #ccc;
+    display: block;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -60px;
+    background-size: contain;
+}
+
+.mainhithir::after{
+    content:'';
+    background-color: purple;
+    display: block;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -53px;
+    top: 7px ;
+    background-size: contain;
+}
+/* Battlefield */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SideContant */
+.side-content{
+    position: absolute;
+    width: 700px;
+    height: 1200px;
+    padding: 100px;
+    right: 0;
+    top: 0px;
+    background: linear-gradient(180deg, #6D5DA8 0%, #43479E 100%);
+}
+.sidetext{
+    font-family: var(--main-font-family);
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.sidetitles{
+    font-family: var(--main-font-family);
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 60px;
     margin-bottom: 20px;
-    color: #9B9B9B;
 }
 
-.bat__text{
-    color: #666666;
+.hedmein{
+    font-family: var(--main-font-family);
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 30px;
 }
 
-.bat{
-    position: absolute;
-    height: 30px;
-    left: 50px;
-    top: 645px;
+.lines{
+    list-style: none;
+    text-decoration: none;
 }
 
-.dot3{
-    position: absolute;
-    height: 30px;
-    left: 50px;
-    top: 1000px;
+progress{
+    padding: 5px ;
+    width: 300px;
+    height: 20px;
 }
+
+.findme{
+    list-style: none;
+    text-decoration: none;
+}
+
+.find{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+/* SideContant */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .anno{
+        position: absolute;
+        margin-top: 250px;
+    }
+
+    .battlefield{
+        position: absolute;
+        margin-top: 400px;
+    }
+
+  @media screen and (max-width: 768px) {
+    
+  }
